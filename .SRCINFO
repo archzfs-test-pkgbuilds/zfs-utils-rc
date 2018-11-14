@@ -1,0 +1,31 @@
+pkgbase = zfs-utils-rc
+	pkgdesc = Kernel module support files for the Zettabyte File System.
+	pkgver = 0.8.0_rc2
+	pkgrel = 1
+	url = http://zfsonlinux.org/
+	install = zfs-utils.install
+	arch = x86_64
+	groups = archzfs-linux-rc
+	license = CDDL
+	provides = zfs-utils
+	provides = spl-utils
+	conflicts = zfs-utils
+	conflicts = spl-utils
+	replaces = zfs-utils-linux
+	replaces = zfs-utils-linux-lts
+	replaces = zfs-utils-common
+	backup = etc/zfs/zed.d/zed.rc
+	backup = etc/default/zfs
+	source = https://github.com/zfsonlinux/zfs/releases/download/zfs-0.8.0-rc2/zfs-0.8.0-rc2.tar.gz
+	source = zfs-utils.bash-completion-r1
+	source = zfs-utils.initcpio.install
+	source = zfs-utils.initcpio.hook
+	source = zfs-utils.initcpio.zfsencryptssh.install
+	sha256sums = 66fa2aa270586dc3c0f64d08b83f126f288163d6fb622e8d85e3e86a118a2082
+	sha256sums = b60214f70ffffb62ffe489cbfabd2e069d14ed2a391fac0e36f914238394b540
+	sha256sums = 29a8a6d76fff01b71ef1990526785405d9c9410bdea417b08b56107210d00b10
+	sha256sums = ae1cda85de0ad8b9ec8158a66d02485f3d09c37fb13b1567367220a720bcc9a5
+	sha256sums = 29080a84e5d7e36e63c4412b98646043724621245b36e5288f5fed6914da5b68
+
+pkgname = zfs-utils-rc
+
