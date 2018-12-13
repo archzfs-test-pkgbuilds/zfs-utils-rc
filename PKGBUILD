@@ -8,7 +8,7 @@
 pkgname="zfs-utils-rc"
 
 pkgver=0.8.0_rc2
-pkgrel=1
+pkgrel=2
 pkgdesc="Kernel module support files for the Zettabyte File System."
 makedepends=()
 arch=("x86_64")
