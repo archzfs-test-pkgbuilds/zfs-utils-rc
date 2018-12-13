@@ -28,7 +28,6 @@ groups=("archzfs-linux-rc")
 provides=("zfs-utils" "spl-utils")
 install=zfs-utils.install
 conflicts=("zfs-utils" "spl-utils")
-replaces=("zfs-utils-linux" "zfs-utils-linux-lts" "zfs-utils-common")
 backup=('etc/zfs/zed.d/zed.rc' 'etc/default/zfs')
 
 build() {
